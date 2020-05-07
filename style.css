@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+.container-links {
+  background-color: #386CE3;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#links {
+  display: inline-flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.sentance{
+  margin-top: 12px;
+   background-color: #386CE3; 
+  color: white;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+
+}
+.dropdown:hover>.dropdown-menu
+{
+display: block;
+}
+
+.nested-dropdown>b:hover
+{
+ color:white ;
+ background: #386CE3;
+}
+
+.dropdown-menu>a:hover
+{
+color:white;
+background:#386CE3;  
+}
+ .active>a
+ {
+  color:white;
+  background:#386CE3;  
+  border-radius: 20px;  
+ }
+
+ .nav-links>a:hover
+ {
+  background:#386CE3;  
+  border-radius: 20px;
+ 
+ }
+.nav-links>a>span:hover
+{
+  
+  color:white;
+}
+
+
+.Introduction p {
+  margin-left: 40px;
+  color: grey;
+}
+
+.Introduction h1 {
+
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+
+.intro {
+  color: #386CE3;
+}
+
+
+.design {
+  display: flex;
+  justify-content: center;
+}
+.action
+{
+  display: inline-flex;
+}
+
+.images
+{
+  position: relative;
+  height: 200px;
+  display: inline-flex; 
+  flex-wrap: wrap;
+}
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+.info-box
+{
+ padding-top:50px; 
+}
+
+.content {
+  width:100%;
+  font-family: serif;
+  font-size: 23px;
+  color: #6c767a;
+}
+
+
+
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  } 
+}
+
+@media screen and (max-width: 1100px) {
+  .images  {
+    height: 300px;
+    display: inline-flex; 
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .images  {
+    height: 300px;
+    display: inline-flex; 
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .images  {
+    height: 400px;
+    display: inline-flex; 
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .images  {
+    height: 500px;
+    display: inline-flex; 
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .images  {
+    height: 600px;
+    display: inline-flex; 
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 500px) {
+  .images  {
+    height: 700px;
+    display: inline-flex; 
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width : 985px)
+{
+  .container-links {
+    background-color: #386CE3;
+    width: 100%;
+    flex-direction: row;
+  }
+  
+}
